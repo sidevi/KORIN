@@ -1,0 +1,50 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+*{  
+
+    box-sizing: border-box;
+}
+body {
+    
+    background: linear-gradient(to right, #7c4dff, #ff66b2, #00b3ff75, #000);
+    
+
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+       
+ 
+
+  @keyframes glow{  0% {
+                                           text-shadow: 0 0 10px #ffffff, 0 0 20px #fff, 0 0 30px #ffffff;
+                                       }
+                
+                                       50% {
+                                           text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #ff6;
+                                       }
+                
+                                       100% {
+                                           text-shadow: 0 0 10px #fff, 0 0 20px #ffffff, 0 0 30px #fff;
+                                       }
+                                   }
+ h1 {
+    
+    
+     
+     color: white;
+    animation: glow 2s infinite alternate;
+     padding: 20px;
+     margin: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }

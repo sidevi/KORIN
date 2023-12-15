@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korin</title>
+<link rel="icon" href="img/musical-notes.png" sizes="32x32" type="">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="./music.css"/>
+</head>
+<body>
+   
+   <h1>  KORIN</h1>
+   
+   
+    <div  id="musical-notes" class="musical-notes">   
+
+<div id="music-info">   </div>
+<h1 id="title"></h1>
+   <div id="progress-container"  class="progress-container">   
+    <div class="progress" id="progress">  
+         </div>
+   </div> 
+
+</div>
+
+<audio src="music/Loveworld_Singers_-_Lord_Over_All.mp3" id="audio"></audio>
+
+<div    class=" img-container">    
+<img src="/img/a5.webp" alt="music-cover" id="cover" />
+</div>
+
+
+<div class="navigation">   
+<button  id="prev"   class="action-btn"> <i class="fas fa-backward"></i>  </button>
+</div>
+
+<button id="play" class="action-btn action-btn-big">
+    <i class="fas fa-play"></i>
+</button>
+<button id="next" class="action-btn">
+    <i class="fas fa-forward"></i>
+</button>
+</div>
+
+
+<script  src="music.js"></script>
+</body>
+</html>
